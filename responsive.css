@@ -1,0 +1,1152 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* styling of the navigation bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+
+}
+
+/* styling of the image */
+.cross {
+    padding-left: 90px;
+}
+
+/* styling of the list */
+.contact-header {
+    align-content: space-between;
+    padding-left: 40px;
+    margin-left: 10rem;
+
+}
+
+.header {
+    display: inline;
+    padding: 10px;
+    list-style: none;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(66, 63, 63);
+    font-size: 10px;
+    font-weight: bold;
+}
+
+small {
+    font-size: 10px;
+    color: black;
+}
+
+h1 {
+    padding-top: 10px;
+}
+
+/* styling of the nav-menu section */
+.nav-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-right: 120px;
+
+}
+
+.nav-button {
+    padding-left: 20px;
+}
+
+.contact {
+    position: relative;
+    display: block;
+}
+
+.drop-content {
+    display: none;
+}
+
+/* .contact {
+    position: relative;
+    display: block;
+} */
+
+.buy-now {
+    font-size: 10px;
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+
+
+}
+
+/* end of the styling for navigation bar */
+
+/* media quer for the Nav-bar */
+@media screen and (max-width: 890px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 120px;
+
+    }
+
+    .cross {
+        padding-left: 0px;
+
+    }
+
+    .header {
+        display: block;
+        margin-left: 0px;
+        padding: 0px;
+    }
+
+    .contact-header {
+        margin-left: 0px;
+        padding: 0px;
+    }
+
+    .nav-button {
+        margin: 0px;
+    }
+
+
+
+}
+
+/* styling of the church image hero page*/
+.church {
+    background-image: url(./images/background34.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.church-imag {
+    padding-top: 20px;
+
+}
+
+.church-imag>h1,
+.well,
+.join-with-us {
+    color: white;
+    text-align: center;
+    padding-top: 155px;
+    padding-bottom: 20px;
+}
+
+.template {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.well {
+    font-size: 25px;
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.join-with-us>a {
+    font-size: 13px;
+    background-color: rgb(204, 59, 59);
+    color: white;
+    padding: 12px 24px;
+}
+
+.join-with-us {
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+}
+
+/* End of the hero page */
+
+/* styling of the 3-wise-words section */
+.word-faith {
+    font-size: 28px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgb(26, 25, 25);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wise-words {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+
+}
+
+.wise-words>div {
+    margin: 10px;
+}
+
+.believe-word,
+.who-word,
+.how-word {
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.B-content,
+.who-content,
+.how-content {
+    font-weight: bolder;
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* end of the 3-wise-men section */
+
+/*  styling of the pink-Address  */
+.pink-address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    background-color: rgb(219, 79, 79);
+
+    padding: 2rem;
+}
+
+
+uwc {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.txt-fnt {
+    font-family: 'Crimson Text', serif;
+}
+
+
+
+.weekly-activities,
+.church-address,
+.read-more {
+    color: white;
+}
+
+.church-address {
+    border-left: 0.5px solid rgb(170, 166, 166);
+    padding-left: 25px;
+
+}
+
+.more {
+    border: 2px solid white;
+    background-color: rgb(219, 79, 79);
+    color: white;
+    padding: 12px 24px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+
+.more:hover {
+    background-color: white;
+    color: rgb(219, 79, 79);
+}
+
+/*  end of styling for pink address */
+
+/*  media query for the pink address */
+@media screen and (max-width: 746px) {
+    .pink-address {
+        display: flex;
+        flex-direction: column;
+
+        /* height: 25vh;
+        padding: 25px 25px;
+        font-size: 12px; */
+
+    }
+
+    .church-address {
+        border-left: none;
+        padding-left: 0px;
+        padding: 10px 0px;
+
+    }
+
+    .uwc {
+        font-size: 15px;
+    }
+
+    .more {
+        padding: 8px 16px;
+        font-size: 9px;
+    }
+
+}
+
+@media screen and (max-width: 638px) {
+
+    .pink-address {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        min-height: 50vh;
+
+    }
+
+    .church-address {
+        border-left: none;
+        /* padding-left: 25px; */
+
+    }
+
+    .weekly-activities,
+    .read-more {
+        margin: 3px;
+        border: none;
+        font-size: 15px;
+        max-width: 200px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+
+    }
+}
+
+/*  styling for the Welcome to our church section */
+.our-church {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 235, 236);
+    min-height: 20rem;
+
+}
+
+.welcome-church {
+    justify-content: center;
+    background-color: white;
+    width: 40%;
+    padding: 16px 10px 16px;
+    margin: 32px auto;
+    max-height: 170px;
+}
+
+
+.monday {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    letter-spacing: 1px;
+
+}
+
+.friday,
+.avenue {
+    color: rgb(150, 148, 148);
+}
+
+.paul {
+    font-weight: lighter;
+    color: rgb(238, 19, 19);
+}
+
+.friday,
+.paul,
+.avenue {
+    font-size: 12px;
+}
+
+
+.digital-time {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(219, 79, 79);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    /* margin-top: 60px; */
+    margin-right: 100px;
+    height: 39vh;
+    min-width: 35vw;
+    padding: 20px;
+
+}
+
+.days,
+.hour,
+.minute,
+.second {
+    font-size: 28px;
+    /* align-items: center; */
+    margin: auto;
+    color: white;
+}
+
+.days,
+.hour {
+    border-right: 1px solid rgb(214, 211, 211);
+}
+
+.number {
+    font-size: 30;
+    padding-right: 15px;
+}
+
+.letter {
+    font-size: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+
+}
+
+@media screen and (min-width:931px) {
+    .our-church {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: rgb(236, 235, 236);
+        min-height: 20rem;
+
+    }
+
+    .welcome-church {
+        background-color: white;
+        min-width: 40%;
+
+    }
+}
+
+@media screen and (max-width:931px) {
+    .welcome-church {
+        background-color: white;
+        display: flex;
+    }
+
+    .digital-time {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(219, 79, 79);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bolder;
+        margin-left: 30px;
+        height: 39vh;
+        min-width: 35vw;
+        padding: 20px;
+
+    }
+}
+
+@media screen and (max-width:700px) {
+    .welcome-church {
+        background-color: white;
+        min-height: 220px;
+        margin: 0px;
+        padding-top: 3.5rem;
+        min-width: 80%;
+
+    }
+
+    .digital-time {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        min-width: 80%;
+        margin-left: 100px;
+        margin-top: -100px;
+    }
+}
+
+
+/*  styling of the  section OUR EVENT that has 3 images  */
+.first-img {
+    height: 30vh;
+
+}
+
+/* styling of the parent container of the "our event  */
+.event-overall {
+    margin-top: 40px;
+
+}
+
+.overall {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.e-heading {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.g-word,
+.st-word,
+.sun-word {
+    padding-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 19px;
+}
+
+.sunday-school-sec,
+.truth-sec,
+.gathering-sec {
+    padding-top: 10px;
+}
+
+.friday,
+.avenue {
+    font-size: 13px;
+}
+
+.sect {
+
+    padding-bottom: 8px;
+}
+
+.overall-p {
+    max-width: 200px;
+}
+
+.paul {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sunday-schl,
+.spirit-truth,
+.gather-p {
+    font-size: 12px;
+}
+
+.e-container,
+.e-container-2,
+.e-container-3 {
+    margin: 10px;
+}
+
+/*  End of the styling of the Section for Our Event */
+
+@media screen and (max-width:780px) {
+    .e-container {
+        display: block;
+        /* width: 100%; */
+
+    }
+
+    .overall-p {
+        max-width: 100%;
+        word-wrap: wrap;
+
+    }
+
+
+
+    .first-img {
+        width: 100%;
+        height: 60%;
+    }
+
+    .g-word,
+    .st-word,
+    .sun-word {
+        font-size: 25px;
+    }
+
+    .sunday-schl,
+    .spirit-truth,
+    .gather-p {
+        font-size: 20px;
+    }
+}
+
+
+
+
+/* Beginnig of the styling for the Lates News update */
+
+.late-news-container {
+    margin-top: 90px;
+}
+
+.lates {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.heading-news {
+    color: rgb(46, 42, 42);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.serve {
+    color: grey;
+    font-family: 'Crimson';
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.calvary-cross {
+    height: 10em;
+}
+
+.calvary-date {
+    color: rgb(219, 79, 79);
+}
+
+.news-update {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+}
+
+.second-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.second-header:hover {
+    color: rgb(219, 79, 79);
+}
+
+.news-content {
+    font-size: 12px;
+    line-height: 1.5em;
+}
+
+.update-1,
+.update-2,
+.update-3 {
+    margin: 10px;
+}
+
+@media screen and (max-width:780px) {
+    .news-update {
+        display: block;
+        width: 100%;
+
+    }
+
+    .overall-p {
+        max-width: 100%;
+        word-wrap: break-word;
+
+    }
+
+
+
+    .calvary-cross {
+        width: 100%;
+        height: 60%;
+    }
+
+    .second-header {
+        font-size: 25px;
+    }
+
+    .news-content {
+        font-size: 20px;
+    }
+}
+
+/*  styling of the vvm section */
+.vvm-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.vvm {
+    color: rgb(46, 42, 42);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 10px;
+    font-weight: 10px;
+    font-size: 25px;
+}
+
+.vvm-subheading {
+    color: grey;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.vvm-container {
+    margin-top: 90px;
+}
+
+.p-word {
+    font-size: 10px;
+    line-height: 1.8em;
+}
+
+.wording-1,
+.wording-2,
+.wording-3 {
+    margin: 17px;
+}
+
+.wording-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 20px;
+}
+
+@media (min-width:320px)and (max-width:600px) {
+    .p-word {
+        font-size: 15px;
+        line-height: 1.2em;
+    }
+}
+
+/*  end of the styling of the vvm section  */
+
+/*  styling of the Our faith section */
+.our-faith-container {
+    margin: 90px;
+}
+
+.faith-content {
+    text-align: center;
+}
+
+.serve>.faith-content {
+    padding-top: 20px;
+}
+
+.faith-content .serve {
+    padding-top: 15px;
+}
+
+.faith-wordy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.faith-word {
+    width: 300px;
+    line-height: 1.5em;
+    font-size: 11px;
+    padding-top: 20px;
+    word-wrap: break-word;
+}
+
+.f-img {
+    width: 400px;
+    height: 300px;
+}
+
+.faith-img {
+    padding-top: 23px;
+}
+
+.btn-more {
+    border: 1.5px solid rgb(219, 79, 79);
+    border-radius: 2px;
+    padding: 12px 30px;
+    color: rgb(219, 79, 79);
+    font-size: 12px;
+}
+
+.learner {
+    padding-top: 25px;
+}
+
+.btn-more:hover {
+    background-color: rgb(219, 79, 79);
+    color: white;
+}
+
+@media screen and (max-width:780px) {
+    .faith-wordy {
+        display: block;
+        width: 100%;
+
+    }
+
+    .wordy {
+        max-width: 100%;
+        word-wrap: break-word;
+
+    }
+
+    .f-img {
+        width: 300px;
+        height: 180px;
+    }
+}
+
+/* styling for the backgroung-image with write-up section */
+
+.bck-write-up {
+    background-image: url(./images/background4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.prayer-point {
+    color: white;
+
+}
+
+.prayer-key {
+    font-size: 50px;
+
+}
+
+.m-clark {
+    padding-top: 10px;
+    font-size: 30px;
+    color: white;
+
+}
+
+.btn-bck {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.prayer-click {
+    border: 1.5px solid rgb(252, 255, 255);
+    border-radius: 2px;
+    padding: 10px 20px;
+    color: rgb(255, 252, 252);
+    font-size: 12px;
+}
+
+a {
+    padding-bottom: 50px;
+}
+
+/* styling of the pastors section */
+.four-pastor {
+    padding-top: 40px;
+    margin: auto;
+}
+
+.meet-p {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.pastor {
+    width: 180px;
+    height: 180px;
+}
+
+.pastorate {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.pastor-1,
+.pastor-2,
+.pastor-3,
+.pastor-4 {
+    padding-right: 30px;
+}
+
+.head-name {
+    font-weight: 15px;
+    padding-top: 30px;
+}
+
+.leaders {
+    padding-top: 10px;
+    color: rgb(219, 79, 79);
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+/*  styling of the four working people section  */
+.four-containers {
+    background-color: rgb(236, 235, 236);
+    margin-top: 30px;
+    height: 550px;
+    text-align: center;
+}
+
+.donate {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-weight: 20px;
+}
+
+.d-monthly {
+    color: grey;
+    font-size: 10px;
+
+}
+
+.four-workers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 25px;
+    padding: 10px 20px;
+}
+
+.container {
+    background-color: rgb(220, 213, 213);
+    height: 350px;
+    width: 180px;
+    margin-left: 25px;
+}
+
+.purple-student {
+    background-color: rgba(7, 11, 29, 0.903);
+    height: 70px;
+    margin-bottom: 25px;
+
+}
+
+.business {
+    background-color: rgb(225, 51, 8);
+    height: 70px;
+    margin-bottom: 25px;
+
+}
+
+
+.worker-people,
+.medium-donator {
+    background-color: rgb(219, 79, 79);
+    height: 70px;
+    margin-bottom: 25px;
+
+}
+
+
+
+.student,
+.busi {
+    font-size: 25px;
+    padding: 20px;
+    color: white;
+    /* word-spacing: 8px; */
+}
+
+.people,
+.medium-d {
+    font-size: 18px;
+    padding: 20px;
+    color: white;
+}
+
+.student-content,
+.working-people-content,
+.medium-content,
+.business-content {
+    font-size: 12px;
+    padding-bottom: 25px;
+}
+
+.month {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(219, 79, 79);
+    font-weight: bolder;
+}
+
+.ten {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.pounds {
+    font-size: 20px;
+}
+
+.send-don {
+    border: 1.5px solid grey;
+    border-radius: 2px;
+    padding: 10px 18px;
+    font-weight: bold;
+    font-size: 10px;
+    align-items: center;
+    color: black;
+}
+
+.send-don:hover {
+    background-color: rgb(219, 79, 79);
+    color: white;
+    border: 1.5px solid rgb(219, 79, 79);
+}
+
+/*  end of styling for the four working people  */
+
+/* media query for the four working people section */
+@media (min-width: 320px) and (max-width: 499px) {
+
+    /* GIVE THE FOOTER A LARGE MARGIN TOP SO
+    AS TO ACCOMODATE THE CARDS ABOVE PROPERLY */
+    footer {
+        margin-top: 80px;
+    }
+
+    .four-containers {
+
+        padding-bottom: 1600px;
+    }
+
+    .container {
+        margin: 10px;
+    }
+
+}
+
+
+@media (min-width: 500px) and (max-width: 909px) {
+
+    /* GIVE THE FOOTER A LARGE MARGIN TOP SO
+    AS TO ACCOMODATE THE CARDS ABOVE PROPERLY */
+    footer {
+        margin-top: 80px;
+    }
+
+    .four-containers {
+
+        padding-bottom: 900px;
+    }
+
+    .container {
+        margin: 10px;
+    }
+
+}
+
+/* styling of the footer section  */
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 50px;
+    background-color: rgb(20, 20, 31);
+    height: 300px;
+    color: white;
+}
+
+.img-footer {
+    width: 270px;
+}
+
+.contact-link {
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.conlink-word {
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.useful-link-2 {
+    padding-top: 40px;
+}
+
+.two-useful-link {
+    padding-right: 5px;
+}
+
+.copyright {
+    background-color: rgb(9, 9, 16);
+    color: white;
+    height: 50px;
+}
+
+.right {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.copy {
+    color: rgb(219, 79, 79);
+    ;
+}
+
+@media screen and (max-width:500px) {
+    .footer {
+        height: 800px;
+        display: inline-block;
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding-left: 50px;
+    }
+
+    .copyright {
+        text-align: center;
+        height: 90px;
+        font-size: 15px;
+        word-break: break-all;
+
+
+    }
+}
+
+@media (max-width:800px) {
+    .footer {
+        height: 400px;
+        /* width: 550px; */
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 50px;
+    }
+
+    .copyright {
+        text-align: center;
+        height: 90px;
+        font-size: 17px;
+    }
+
+    .contact-link {
+        font-size: 30px;
+    }
+    .conlink-word{
+        font-size: 25px;
+    }
+}
