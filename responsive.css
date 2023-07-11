@@ -122,12 +122,13 @@ h1 {
     }
 
     .contact-header {
-        margin-left: 0px;
+        margin-left: 20px;
         padding: 0px;
     }
 
     .nav-button {
-        margin: 0px;
+        margin:20px 0px;    
+
     }
 
 
@@ -305,7 +306,7 @@ uwc {
     }
 
     .more {
-        padding: 8px 16px;
+        padding: 10px 20px;
         font-size: 9px;
     }
 
@@ -331,11 +332,25 @@ uwc {
     .read-more {
         margin: 3px;
         border: none;
-        font-size: 15px;
+        font-size: 18px;
         max-width: 200px;
         padding-bottom: 10px;
         padding-top: 10px;
 
+    }
+    .txt-fnt{
+        font-size: 18px;
+    }
+    .uwc{
+        font-size: 20px;
+    }
+    .more {
+        border: 2px solid white;
+        background-color: rgb(219, 79, 79);
+        color: white;
+        padding: 10px 20px;
+        font-size: 15px;
+        cursor: pointer;
     }
 }
 
@@ -708,8 +723,10 @@ uwc {
 }
 
 .p-word {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 1.8em;
+    width: 255px;
+    word-wrap: break-word;
 }
 
 .wording-1,
@@ -723,6 +740,7 @@ uwc {
     flex-wrap: wrap;
     justify-content: center;
     margin: 10px 20px;
+    word-break: break-all;
 }
 
 @media (min-width:320px)and (max-width:600px) {
@@ -736,6 +754,7 @@ uwc {
 
 /*  styling of the Our faith section */
 .our-faith-container {
+
     margin: 90px;
 }
 
@@ -803,6 +822,7 @@ uwc {
     .wordy {
         max-width: 100%;
         word-wrap: break-word;
+        font-size: 15px;
 
     }
 
@@ -812,6 +832,22 @@ uwc {
     }
 }
 
+@media screen and (max-width:450px) {
+    .our-faith-container {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+@media screen and (min-width:320px) {
+    .our-faith-container {
+        margin-left: 10px;
+        margin-right: 40px;
+    }
+}
+
+
+
 /* styling for the backgroung-image with write-up section */
 
 .bck-write-up {
@@ -819,7 +855,7 @@ uwc {
     background-position: center;
     background-repeat: no-repeat;
     min-height: 90vh;
-    width: 100%;
+    min-width: 100%;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 50px;
@@ -859,6 +895,16 @@ uwc {
 
 a {
     padding-bottom: 50px;
+}
+
+@media screen and (max-width:447px) {
+    .bck-write-up {
+        padding-top: 70px;
+    }
+
+    .prayer-key {
+        font-size: 35px;
+    }
 }
 
 /* styling of the pastors section */
@@ -901,6 +947,24 @@ a {
     color: rgb(219, 79, 79);
     font-size: 12px;
     font-weight: bolder;
+}
+
+@media screen and(max-width:450px) {
+    .head-name {
+        padding-top: 30px;
+}
+
+.leaders {
+    padding-top: 10px;
+    /* padding-bottom: 20px; */
+    font-size:12px;
+   
+}
+.pastor{
+    margin-bottom: 30px;
+}
+
+
 }
 
 /*  styling of the four working people section  */
@@ -1067,7 +1131,7 @@ a {
     justify-content: space-around;
     padding-top: 50px;
     background-color: rgb(20, 20, 31);
-    height: 300px;
+    min-height: 300px;
     color: white;
 }
 
@@ -1109,44 +1173,27 @@ a {
     ;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:450px) {
     .footer {
-        height: 800px;
-        display: inline-block;
-        flex-wrap: wrap;
-        flex-direction: row;
-        padding-left: 50px;
+       min-height: 500px;
+       width: 100%;
+       display:inline-block;
+       flex-wrap: nowrap;
+       justify-content: start;
+       padding-left: 20px;
     }
-
-    .copyright {
-        text-align: center;
-        height: 90px;
-        font-size: 15px;
-        word-break: break-all;
-
-
-    }
+   .two-useful-links{
+    margin-top: 15px;
+   }
+   .conlink-word{
+    font-size: 17px;
+   }
+   .contact-link{
+    font-size: 25px;
+   }
+   .right {
+    text-align: center;
+    padding: 10px;
 }
 
-@media (max-width:800px) {
-    .footer {
-        height: 400px;
-        /* width: 550px; */
-        display: flex;
-        flex-wrap: wrap;
-        padding-left: 50px;
-    }
-
-    .copyright {
-        text-align: center;
-        height: 90px;
-        font-size: 17px;
-    }
-
-    .contact-link {
-        font-size: 30px;
-    }
-    .conlink-word{
-        font-size: 25px;
-    }
 }
